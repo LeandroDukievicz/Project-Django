@@ -2,3 +2,51 @@ node_modules
 
 .env*
 
+# Sistema operacional
+*.DS_Store
+*.swp
+Thumbs.db
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+
+# Virtualenv
+.venv/
+.env/
+venv/
+env/
+# Configurações IDEs/Editor
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de log
+*.log
+
+# Django
+db.sqlite3
+/media/
+/staticfiles/
+
+# Migrations criadas automaticamente
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+**/migrations/*.swp
+**/migrations/*~
+
+# Cache
+*.cache
+*.mo
+
+# Node.js (se usando npm/yarn para gerenciar assets)
+node_modules/
+package-lock.json
+yarn.lock
+
